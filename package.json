@@ -1,0 +1,11 @@
+{
+  "name": "es_demo1",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "elasticsearch": "^11.0.1",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}

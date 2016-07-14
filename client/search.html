@@ -1,0 +1,15 @@
+<template name="search">
+  {{> EasySearch.Input index=namesIndex}}
+
+  <ul>
+    {{#EasySearch.Each index=namesIndex}}
+      <li>{{first}} {{last}} </li>
+    {{/EasySearch.Each}}
+  </ul>
+
+  {{> EasySearch.LoadMore index=namesIndex}}
+
+  {{#EasySearch.IfNoResults index=namesIndex}}
+    <div class="no-results">No results found!</div>
+  {{/EasySearch.IfNoResults}}
+</template>

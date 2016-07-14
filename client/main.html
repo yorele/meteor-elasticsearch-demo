@@ -1,0 +1,22 @@
+<head>
+    <title>Elastic demo</title>
+    <style>
+        input {
+            font-size: 1.5em;
+            color: #2a2a2a;
+            width: 25%;
+            height: 40px;
+        }
+    </style>
+</head>
+
+<body style="font-size: 1.2em; font-family: Lucida Grande, sans-serif; color: #555;">
+<h1>Fuzzy with Meteor</h1>
+
+
+{{>search}}  <!-- search with the easy:search package -->
+<!--{{>suggest}}-->  <!-- suggestion box from easy:search, requires  easysearch:autosuggest -->
+
+<!--{{>search2}}-->   <!-- search with the elasticsearch client and using methods -->
+<!--{{>aggregation}}-->  <!-- simple aggregation example with the elasticsearch client -->
+</body>
